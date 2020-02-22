@@ -25,7 +25,7 @@ namespace WpfApp1
             InitializeComponent();
 
             //aqui un boton con contenido distinto para ver como actuar con control de cambios
-
+            //nuevo cambio
             Grid miGrid = new Grid();
             this.Content = miGrid;
             TextBox mitextbox = new TextBox();
