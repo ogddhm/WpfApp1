@@ -23,6 +23,8 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+
+            //hola este cambio es para ver como actuar con control de cambios
         }
     }
 }
