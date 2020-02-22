@@ -24,10 +24,10 @@ namespace WpfApp1
         {
             InitializeComponent();
 
-            //comentario en oscar branch arriba
+            
 
 
-            Grid miGrid = new Grid();
+            /*Grid miGrid = new Grid();
             this.Content = miGrid;
             Button miBoton = new Button();
             miBoton.Width = 200;
@@ -49,10 +49,15 @@ namespace WpfApp1
             miWrap.Children.Add(txt3);
 
             miBoton.Content=miWrap;
-            miGrid.Children.Add(miBoton);
+            miGrid.Children.Add(miBoton);*/
 
-            //comentario en develop
+            
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("le diste al boton ");
         }
     }
 }

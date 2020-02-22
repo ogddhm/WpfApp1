@@ -6,5 +6,12 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         Title="1ª Interfaz" Height="450" Width="800">
-   
+    <StackPanel>
+        <Button Margin="15" Width="150" HorizontalAlignment="Left">Dale 1</Button>
+        <Button Margin="15" Width="150" HorizontalAlignment="Center" Click="Button_Click">Dale 2</Button>
+        <Button Margin="15" Width="150" HorizontalAlignment="Right">Dale 3</Button>
+
+
+    </StackPanel>
+    
 </Window>
