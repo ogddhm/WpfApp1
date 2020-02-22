@@ -24,7 +24,15 @@ namespace WpfApp1
         {
             InitializeComponent();
 
-            //hola este cambio es para ver como actuar con control de cambios
+            //aqui un boton con contenido distinto para ver como actuar con control de cambios
+
+            Grid miGrid = new Grid();
+            this.Content = miGrid;
+            TextBox mitextbox = new TextBox();
+            mitextbox.Text = "prueba develop branch";
+
+            
+            miGrid.Children.Add(mitextbox);
         }
     }
 }
